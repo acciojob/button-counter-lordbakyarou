@@ -6,8 +6,8 @@ const App = () => {
 
   return (
     <div>
-      <p>Button Clicked {num} times</p>
-      <button onClick={setNum(num + 1)}>Click Me</button>
+      <p>Button clicked {num} times</p>
+      <button onClick={() => setNum(num + 1)}>Click Me</button>
     </div>
   );
 };
